@@ -2,11 +2,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Luis Guilherme Godim da Fonseca
+- Matrícula: 24.1.8063
+- Curso: SI
+- Semestre/Ano correntes: 2024/1
+- Link para o seu GitHub: https://github.com/luisggf
 
 ## [Projeto final:](./Projeto/README.md)
 
