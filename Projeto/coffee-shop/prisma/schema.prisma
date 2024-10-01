@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String @id @default(cuid())
+  username String
+  password String
+  email    String
+}
+
+model Coffee {
+  id          String     @id @default(cuid())
+  name        String
+  description String
+  price       Float
+  img_url     String
+  cartItems   CartItem[] // Reference to CartItem for many-to-many relationship
+}
+
+model Cart {
+  id        String     @id @default(cuid())
+  cartItems CartItem[] // Reference to CartItem for many-to-many relationship
+}
+
+model CartItem {
+  id           Int    @id @default(autoincrement())
+  cartId       String
+  coffee_name  String
+  coffee_desc  String
+  coffeeId     String
+  img_url      String
+  quantity     Int
+  coffee_price Float
+  cart         Cart   @relation(fields: [cartId], references: [id])
+  coffee       Coffee @relation(fields: [coffeeId], references: [id])
+
+  @@unique([cartId, coffeeId]) // Ensure each coffee can be in the cart only once
+}
