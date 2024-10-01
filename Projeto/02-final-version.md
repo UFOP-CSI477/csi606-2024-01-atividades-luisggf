@@ -190,7 +190,7 @@ npm run dev
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/luisggf/polls-front
+git clone https://github.com/luisggf/coffee-shop-frontend
 cd <repository-directory>
 ```
 
@@ -261,20 +261,20 @@ Ensure that the backend API is running and accessible.
 ### 6. Referências
 <!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
 
-\bibitem{tailwind} ELMAN, Charles. \textbf{Tailwind CSS Documentation}. Disponível em: \url{https://tailwindcss.com/}. Acesso em: 1 de julho de 2024.
+- Tailwind CSS Documentation. Disponível em: https://tailwindcss.com/
 
-\bibitem{react} REACT. \textbf{React – A JavaScript library for building user interfaces}. Disponível em: \url{https://reactjs.org/}. Acesso em: 1 de julho de 2024.
+- REACT. Disponível em: https://reactjs.org/
 
-\bibitem{nodejs} NODE.JS FOUNDATION. \textbf{Node.js Documentation}. Disponível em: \url{https://nodejs.org/en/docs/}. Acesso em: 1 de julho de 2024.
+- Node.js Documentation. Disponível em: https://nodejs.org/en/docs/
 
-\bibitem{prisma} PRISMA. \textbf{Prisma Documentation}. Disponível em: \url{https://www.prisma.io/docs}. Acesso em: 1 de julho de 2024.
+- Prisma Documentation. Disponível em: https://www.prisma.io/docs
 
-\bibitem{fastify} FASTIFY. \textbf{Fastify Documentation}. Disponível em: \url{https://www.fastify.io/docs/latest/}. Acesso em: 1 de julho de 2024.
+- Fastify Documentation. Disponível em: https://www.fastify.io/docs/latest/
 
-\bibitem{vite} VITE. \textbf{Vite Documentation}. Disponível em: \url{https://vitejs.dev/}. Acesso em: 18 de setembro de 2024.
+- Vite Documentation. Disponível em: https://vitejs.dev/
 
-\bibitem{redis} REDIS LABS. \textbf{Redis Documentation}. Disponível em: \url{https://redis.io/docs}. Acesso em: 7 de julho de 2024.
+- Redis Documentation. Disponível em: https://redis.io/docs
 
-\bibitem{postgresql} POSTGRESQL. \textbf{PostgreSQL Documentation}. Disponível em: \url{https://www.postgresql.org/docs/}. Acesso em: 7 de julho de 2024.
+- PostgreSQL Documentation. Disponível em: https://www.postgresql.org/docs/
 
-\bibitem{zod} ZOD. \textbf{Zod Documentation}. Disponível em: \url{https://zod.dev/}. Acesso em: 12 de julho de 2024.
+- Zod Documentation. Disponível em: https://zod.dev/
