@@ -43,5 +43,5 @@ Algumas possíveis melhorias para tornar a aplicação mais completa seria:
 - Melhorar a interação com o checkout do carrinho, por exemplo, adicionando validações/formas mais realistas de pagamento, visando, assim, oferecer uma melhor experiência ao usuário.
 
 Confira o repositório atual do projeto nos links abaixo:
-Repositório Frontend: [https://github.com/luisggf/coffee-shop-frontend)
-Repositório Backend: [[https://lnkd.in/dwYFwNkz](https://github.com/luisggf/coffee-shop-backend)
+Repositório Frontend: https://github.com/luisggf/coffee-shop-frontend
+Repositório Backend: https://github.com/luisggf/coffee-shop-backend
